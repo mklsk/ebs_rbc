@@ -97,6 +97,10 @@ p, li {
 	margin: 50px 0;
 }
 
+.red:hover {
+	background-color: #A30000;
+}
+
 .action-button:active
 {
 	transform: translate(0px,5px);
@@ -195,7 +199,7 @@ li {
 	color: #605d5d;
 }
 
-.icons {
+.partners .icons {
 
 	height: 250px;
 	width: 100%;
@@ -206,7 +210,8 @@ li {
 }
 
 #lighter {
-	height: 150px;
+	height: 180px;
+
 }
 
 #nojo {
@@ -219,4 +224,28 @@ li {
 
 .social {
 	height: 100px;
+
+}
+
+.fa {
+	color: #605d5d;
+}
+
+.fa:hover {
+	color: #494848;
+}
+
+
+.social {
+	position: relative;
+}
+
+.iconki {
+
+	width: 250px;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	right: 20px;
+	top: 25px;
 }
