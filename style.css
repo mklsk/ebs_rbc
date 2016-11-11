@@ -57,6 +57,10 @@ li {
     margin: 0 30px;
 }
 
+.conf_desc h1 {
+    margin-top: 0;
+}
+
 .conf_desc::before,
 .partners::before {
     width: 100px;
@@ -81,8 +85,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-	width: 250px;
-
+    width: 250px;
 }
 
 .quest p {
@@ -124,22 +127,25 @@ li {
 }
 
 .speakers {
-    padding: 50px 30px;
+    padding: 0 30px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 50px;
+
 }
 
 .speaker {
-    width: 500px;
+    width: 350px;
     margin: 0 20px 30px;
+    text-align: initial;
 }
 
 .pic {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     background: red;
-    border-radius: 175px;
+    border-radius: 125px;
     margin: 0 auto;
 }
 
@@ -148,25 +154,38 @@ li {
     :
 }
 
+.with_headers{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.with_headers h1 {
+    margin: 40px 0;
+    font-size: 50px;
+}
+
 #one {
     background-image: url(assets/img/speaker1.jpg);
     background-position: -70px 0;
+    background-size: 500px auto;
 }
 
 #two {
     background-image: url(assets/img/speaker2.jpg);
-    background-position: -90px 0;
+    background-position: -70px 0;
+    background-size: cover;
 }
 
 #three {
     background-image: url(assets/img/speaker3.png);
     background-position: -1px -1px;
-    background-size: 353px auto;
+    background-size: 253px auto;
 }
 
 #four {
     background-image: url(assets/img/speaker4.png);
-    background-position: -90px 0;
+    background-size: cover;
+    background-position: -20px 0;
 }
 
 #five {
@@ -177,17 +196,42 @@ li {
 
 #six {
     background-image: url(assets/img/speaker6.jpg);
-    background-position: -1px -1px;
+    background-position: -50px 0;
     background-size: 353px auto;
 }
 
 #seven {
     background-image: url(assets/img/speaker7.png);
+    background-size: cover;
 }
 
 #eight {
     background-image: url(assets/img/speaker8.jpg);
-    background-position: -150px 0;
+    background-position: -200px 0;
+}
+
+#nine {
+    background-image: url(assets/img/speaker9.jpg);
+    background-size: cover;
+    background-position: 0 -20px;
+}
+
+#ten {
+    background-image: url(assets/img/speaker10.jpg);
+    background-size: cover;
+    background-position: -75px 0;
+}
+
+#eleven {
+    background-image: url(assets/img/speaker11.jpg);
+    background-size: cover;
+     background-position: -50px 0;
+}
+
+#twelve {
+    background-image: url(assets/img/speaker12.jpg);
+    background-size: cover;
+     background-position: -80px 0;
 }
 
 .partners {
@@ -205,7 +249,6 @@ li {
     bottom: 50px;
     margin-bottom: 0;
 }
-
 
 .partners .icons {
     display: flex;
@@ -264,4 +307,3 @@ li {
     right: 20px;
     top: 25px;
 }
-
