@@ -12,9 +12,26 @@ body {
 }
 
 h1,
-h2 {
-    font-family: 'Raleway', sans-serif;
+h2,
+h3,
+.gala {
+    font-family: 'rawline', sans-serif;
+    font-weight: 500;
     color: #dd1317;
+}
+
+.time {
+
+    font-size: 1.3em;
+}
+
+.conf_desc .doors {
+    margin-top: 20px;
+}
+
+.gala {
+    font-weight: 600;
+    font-size: 1.2em;
 }
 
 p,
@@ -59,6 +76,11 @@ li {
 
 .conf_desc h1 {
     margin-top: 0;
+}
+
+.conf_desc .russian {
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 .conf_desc::before,
@@ -141,12 +163,31 @@ li {
     text-align: initial;
 }
 
+.startups {
+    width: initial;
+    max-width: 800px;
+}
+
 .pic {
     width: 250px;
     height: 250px;
     background: red;
     border-radius: 125px;
     margin: 0 auto;
+}
+
+.pics_startup {
+    display: flex;
+}
+
+.startup {
+    width: 200px
+}
+
+.startup .pic {
+    width: 170px;
+    height: 170px;
+    border-radius: 85px;
 }
 
 li {
@@ -162,6 +203,10 @@ li {
 .with_headers h1 {
     margin: 40px 0;
     font-size: 50px;
+}
+
+.startups .panel  {
+    font-size: 2em;
 }
 
 #one {
@@ -234,6 +279,24 @@ li {
      background-position: -80px 0;
 }
 
+#thirteen {
+    background-image: url(assets/img/speaker13.png);
+    background-size: auto 170px;
+     
+}
+
+#fourteen {
+    background-image: url(assets/img/speaker14.jpg);
+    background-size: cover;
+   
+}
+
+
+#fifteen {
+    background-image: url(assets/img/speaker15.jpg);
+    background-size: auto 170px;
+   
+}
 .partners {
     background-color: #E2E2E2;
     display: flex;
